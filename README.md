@@ -22,3 +22,15 @@ Following will start server in listning mode. You can also set port of the serve
 ```
 $> node server.js
 ```
+
+If everything goes well, it node will log a message on console with a temp url for demo purpose.
+
+It might show the [Local URL](<http://localhost:1314/index.html>) you can got to that URL for demo.
+
+```
+http://localhost:1314/index.html
+```
+
+If nothing comes up there might be a chance of port conflict, you can go to config.json for changing the port.
+
+Log file must be placed inside folder by name log_file.txt, however file name can be changed from config.json
