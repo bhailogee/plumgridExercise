@@ -1,0 +1,15 @@
+{
+  "name": "plumgrid-exercise",
+  "version": "0.0.2",
+  "description": "Initial evaluation test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Muhammad Wasim",
+  "license": "ISC"
+,"dependencies": {
+  "express": ">= 1.2.0",
+  "chunkfilereader" : ">= 0.0.0"
+}}

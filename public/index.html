@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lazy Loading Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This demo can be used to lazy load content from server, it uses infinite loading concept by removing old page cache.">
+    <meta name="author" content="Muhammad Wasim">
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="content stats">
+        <span><strong>Stats</strong></span>
+        <table cellpadding="5">
+            <tr>
+                <td>Page Size
+                </td>
+                <td>
+                    <span id="sPageSize"></span>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>Cache Limit
+                </td>
+                <td>
+                    <span id="sCacheLimit"></span>Pages
+                </td>
+            </tr>
+
+            <tr>
+                <td>First Page</td>
+                <td><span id="sFirstPage"></span></td>
+
+            </tr>
+            <tr>
+                <td>Last Page</td>
+                <td>
+                    <span id="sLastPage"></span>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="container">
+        <div>
+            <h1 class="heading">Scrolling Example
+            </h1>
+        </div>
+        <div class="note">
+            <span>
+                <strong>This Demo is created to show the concept of continuos scrolling of pages. The intent is to create a tool that can help reading large files.</strong>
+
+                <p>
+                    Tool takes two parameters: 
+                    <ul>
+                        <li>Page Cache: Amount of data that can be fetched from the server. 
+Larger sets will create jitter in UI. </li>
+                        <li>Cache Limit: Number of pages container can store. 
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Following Parameters are just for illustration purpose 
+                    <ul>
+                        <li>First Page: First cached page number.</li>
+                        <li>Last Page: Last cached page number.</li>
+                    </ul>
+                </p>
+            </span>
+        </div>
+
+        <div class="content">
+            <div id="t1"></div>
+        </div>
+    </div>
+</body>
+</html>
