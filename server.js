@@ -54,6 +54,6 @@ app.listen(port, host);
 var fs = require("fs");
 console.log("Server running at pot: " + port);
 console.log("Go to URL http://localhost:" + port + "/index.html for demo purpose");
-Console.log("You can go to config.json to specify log_file");
+console.log("You can go to config.json to specify log_file");
 var bytesRead = 0;
 
