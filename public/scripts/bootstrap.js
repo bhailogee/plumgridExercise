@@ -1,5 +1,5 @@
 var file_service = {
-    pageSize: 2000,
+    pageSize: 1000,
     remainderStore: { Down: "", Up: "" },
     seek: { Down: 0, Up: 0 },
     pageCacheLimit: 20,
